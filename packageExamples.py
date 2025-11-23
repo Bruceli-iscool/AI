@@ -35,3 +35,5 @@ data = {'Name':["John", "Anna", "Peter", "Linda"],
         }
 dataPandas = pd.DataFrame(data)
 print(dataPandas)
+#select riows that meet a certain condition
+print(dataPandas[dataPandas.Age>30])
